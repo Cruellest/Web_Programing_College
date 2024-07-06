@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <title>Personal Portfolio - Gabriel Paes</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="css/font-awesome.min.css" />
+      <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+         crossorigin="anonymous"
+         />
+   </head>
+   <!--Body start-->
+   <body>
+      <!--Header start-->
+      <header>
+         <!-- Navbar start 
+            https://getbootstrap.com/docs/5.3/components/navbar/
+            -->
+            <div class="container-fluid p-2">
+         <nav class="navbar bg-secondary-subtle rounded ps-3 mb-4">
+               <!--Dropdown start
+                  https://getbootstrap.com/docs/5.3/components/dropdowns/
+                  -->
+               <ul class="navbar-nav me-auto mb-2 mb-lg-2 list-group-horizontal row container-fluid">
+                  <a class="navbar-brand col-auto" href="#">Meu Portfólio</a>
+                  <li class="nav-item col-sm-auto"><a class="nav-link" href="#home">Home</a></li>
+                  <li class="nav-item col-sm-auto"><a class="nav-link" href="#sobre">About me</a></li>
+                  <li class="nav-item col-sm-auto"><a class="nav-link" href="#servico">Jobs</a></li>
+                  <li class="nav-item col-sm-auto"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                  <li class="nav-item col-sm-auto"><a class="nav-link" href="#contato">Contact</a></li>
+               </ul>
+               <!--Dropdown end-->
+            </nav>
+            </div>
+         <!--Navbar end-->
+      </header>
+      <!--Header end-->
+      <!--Home start-->
+      <section id="home" class="container-fluid">
+         <div class="row align-itens-center">
+            <div class="col-sm text-center">
+               <div>
+                  <img src="./img/Myself.JPEG" class="img-fluid rounded-circle w-50" alt="Imagem do perfil"/>
+               </div>
+            </div>
+            <div class="col-sm justify-content-center d-flex flex-column">
+               <div>
+                  <p>Hello my name is</p>
+                  <h1>Gabriel Paes</h1>
+                  <h2>Developer, Software engineer student</h2>
+                  <p>Be welcome to my portfolio</p>
+                  <a href="#portifolio">My jobs</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Home end-->
+      <!--Sobre start-->
+      <section id="sobre" class="container p-5 ">
+         <div class="row bg-secondary-subtle p-3 rounded">
+            <div class="col-md">
+               <div>
+                  <div>
+                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <h2>About Me</h2>
+                     </button>
+                     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#sobre">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at erat et neque rhoncus semper. Fusce tincidunt at mauris tincidunt vulputate. Suspendisse potenti. Mauris finibus tortor a est interdum mattis. Vestibulum ac erat vitae neque bibendum condimentum. Nam erat massa, accumsan in efficitur eget, venenatis eget ante. Praesent dictum luctus velit, ut accumsan diam consectetur non. Nulla lobortis porta ipsum vitae viverra. Mauris nec mauris eros. Morbi semper metus ligula. Aliquam sollicitudin dolor tincidunt nulla venenatis, in dapibus tellus viverra. Cras nec nibh iaculis, vestibulum quam ac, sodales ligula.
+
+                           Praesent lacinia, est a auctor accumsan, odio elit fringilla tellus, porttitor sodales velit quam vel felis. Phasellus eget libero tellus. Aliquam cursus pretium feugiat. Suspendisse potenti. Vivamus mattis leo ac volutpat vestibulum. Vestibulum sit amet elit ac diam malesuada venenatis. Praesent justo tellus, vulputate et lorem a, tincidunt aliquet velit. Morbi ullamcorper, velit sed malesuada tristique, ante nulla finibus massa, tristique hendrerit neque nulla eget justo.</p>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <h2>Education</h2>
+                  </button>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#sobre">
+                     <p>
+                        Software Engineering Student in UFMS, Campo Grande Mato Grosso do Sul
+                     </p>
+                     <div>
+                        <h4>Teacher</h4>
+                        <p>in UnAPI</p>
+                     </div>
+                     <div>
+                        <h4>4</h4>
+                        <p>Finished Projects</p>
+                     </div>
+                     <div>
+                        <h4>Game Developer</h4>
+                        <p>in Pet Sistemas UFMS</p>
+                        <button class="btn btn-primary btn-xl text-uppercase" href="#">Download CV</button>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div>
+                     <div class="social-links">
+                        <a href="https://facebook.com/" class="text-dark me-2"
+                           ><i> </i
+                           ></a>
+                        <a href="https://www.linkedin.com/" class="text-dark me-2"
+                           ><i> </i
+                           ></a>
+                        <a href="https://www.instagram.com" class="text-dark me-2"
+                           ><i> </i
+                           ></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md">
+               <h3>HTML</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>CSS</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>JavaScript</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>C/C++</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>Banco de Dados</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>Gerência de Projetos</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>Modelagem de Processos</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>Engenharia de Requisitos</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>Python</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>Java</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>Bootstrap</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+               <h3>React Native</h3>
+               <div class="progress" style="height: 8px">
+                  <div class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Sobre end-->
+      <!-- Serviços start-->
+      <section id="servico" class="container p-5">
+         <div class="row bg-secondary-subtle p-3 rounded">
+            <div>
+               <div>
+                  <div>
+                     <h2 class="pb-3">Jobs</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm pb-5 bg-primary-subtle p-3 rounded ms-3 mb-3"">
+               <div>
+                  <div>
+                     <i></i>
+                  </div>
+                  <h3>Web Developer</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+               </div>
+            </div>
+            <div class="col-sm pb-5 bg-primary-subtle p-3 rounded ms-3 mb-3"">
+               <div>
+                  <i></i>
+               </div>
+               <h3>Game Developer</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-sm pb-5 bg-primary-subtle p-3 rounded ms-3 mb-3"">
+               <div>
+                  <i></i>
+               </div>
+               <h3>Teacher</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+         </div>
+      </section>
+      <!-- Serviços end-->
+      <!-- Portfolio start -->
+      <section id="portfolio">
+         <div>
+         <div>
+         <div>
+         <div>
+         <div id="portfolioCarousel" class="carousel slide p-3 container bg-secondary-subtle rounded" data-bs-ride="carousel">
+            <div class="carousel-inner rounded">
+               <div class="carousel-item active">
+                  <img src="img/portfolio/1.jpg" class=" w-100" alt="Imagem 1 do portfolio">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3>Seção do Time</h3>
+                     <p><a href="#">Demo</a></p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/portfolio/2.jpg" class=" w-100" alt="Imagem 2 do portfolio">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3>App Landing Page</h3>
+                     <p><a href="#">Demo</a></p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/portfolio/3.jpg" class=" w-100" alt="Imagem 3 do portfolio">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3>Team</h3>
+                     <p><a href="#">Demo</a></p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/portfolio/4.jpg" class=" w-100" alt="Imagem 4 do portfolio">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3>Plans</h3>
+                     <p><a href="#">Demo</a></p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/portfolio/5.jpg" class=" w-100" alt="Imagem 5 do portfolio">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3>Pictures</h3>
+                     <p><a href="#">Demo</a></p>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <img src="img/portfolio/6.jpg" class=" w-100" alt="Imagem 6 do portfolio">
+                  <div class="carousel-caption d-none d-md-block">
+                     <h3>Topics</h3>
+                     <p><a href="#">Demo</a></p>
+                  </div>
+               </div>
+               <!-- Add more "carousel-item" divs here with your content -->
+            </div>
+            <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </a>
+         </div>
+      </section>
+      <!-- Portfolio end -->
+      <!-- Contato start -->
+      <section id="contato" class=" py-5">
+         <div class="container bg-secondary-subtle rounded p-5">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                  <h2 class="section-heading text-uppercase">Contact</h2>
+               </div>
+            </div>
+            <div class="row text-center">
+               <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">E-mail</h4>
+                  <p class="text-muted">gabrielpaes@cruellest.site</p>
+               </div>
+               <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Telephone</h4>
+                  <p class="text-muted">+55 (xx) xxxxxxxxx</p>
+               </div>
+               <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                  <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Location</h4>
+                  <p class="text-muted">Campo Grande-MS</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                     <div class="row">
+                        <div class="col-md-6">
+                           <div class="form-group">
+                              <input class="form-control" id="name" type="text" placeholder="Name *" required="required" data-validation-required-message="Please enter your name.">
+                              <p class="help-block text-danger"></p>
+                           </div>
+                           <div class="form-group">
+                              <input class="form-control" id="email" type="email" placeholder="E-mail *" required="required" data-validation-required-message="Please enter your email address.">
+                              <p class="help-block text-danger"></p>
+                           </div>
+                           <div class="form-group">
+                              <input class="form-control" id="phone" type="tel" placeholder="Subject *" required="required" data-validation-required-message="Please enter your phone number.">
+                              <p class="help-block text-danger"></p>
+                           </div>
+                        </div>
+                        <div class="col-md-6">
+                           <div class="form-group">
+                              <textarea class="form-control" id="message" placeholder="Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                              <p class="help-block text-danger"></p>
+                           </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                           <div id="success"></div>
+                           <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Contato end -->
+      <!-- Footer start -->
+      <footer>
+         <div>
+            <div>
+               <div>
+                  <p>&copy; 2024 Paes</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Footer end-->
+      <script src="js/bootstrap.bundle.min.js"></script>
+   </body>
+   <!--Body end-->
+</html>

@@ -1,0 +1,1 @@
+document.getElementById("area").innerHTML =(parseFloat(window.prompt("Digite a Altura que você deseja alcançar (em metros):"))/parseFloat(window.prompt("Digite a altura do degrau(em metros):")))

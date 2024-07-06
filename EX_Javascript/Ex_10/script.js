@@ -1,0 +1,1 @@
+document.getElementById("area").innerHTML =(Number(window.prompt("Digite o Tamanho da Base:"))*Number(window.prompt("Digite a Altura:")))/2

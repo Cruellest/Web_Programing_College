@@ -1,0 +1,19 @@
+.meunome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    align-content: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50pt;
+    color: white;
+    background-color: black;
+    border-radius: 130px;
+}
+
+
+
+

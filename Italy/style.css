@@ -1,0 +1,41 @@
+body{
+    background-color: #d4d4d4;
+}
+
+.Flag{
+
+    outline: 2px solid black;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+   
+
+
+}
+
+.White{
+    background-color: white;
+    width: 167px;
+    height: 300px;
+    position: relative;
+
+}
+
+.Green{
+    background-color: green;
+    width: 167px;
+    height: 300px;
+    position: relative;
+}
+
+.Red{
+    
+    background-color: red;
+    width: 167px;
+    height: 300px;
+    position: relative;
+}
